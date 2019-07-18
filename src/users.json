@@ -1,0 +1,124 @@
+[
+  {
+    "username": "admin",
+    "password": "123",
+    "id": 1,
+    "tasks": [
+      {
+        "id": "_vqcgtj61j",
+        "content": "Update project plan",
+        "status": "plan",
+        "priority": "medium",
+        "creationDate": "01.02.2018 07:26:30",
+        "plannedTime": "3",
+        "spentTime": "2"
+      },
+      {
+        "id": "_dl8qqfn1w",
+        "content": "Testing app",
+        "status": "plan",
+        "priority": "medium",
+        "creationDate": "01.02.2018 08:01:12",
+        "plannedTime": "7",
+        "spentTime": "5"
+      },
+      {
+        "id": "_ui2oupnju",
+        "content": "Open scrum board",
+        "status": "done",
+        "priority": "low",
+        "creationDate": "01.02.2018 07:31:47",
+        "plannedTime": "1",
+        "spentTime": "1"
+      },
+      {
+        "id": "_pi82zmap6",
+        "content": "Learn JS",
+        "status": "in progress",
+        "priority": "high",
+        "creationDate": "01.02.2018 08:02:13",
+        "plannedTime": "80",
+        "spentTime": ""
+      },
+      {
+        "id": "_t46gj7lxc",
+        "content": "Learn React",
+        "status": "in progress",
+        "priority": "high",
+        "creationDate": "01.02.2018 08:01:10",
+        "plannedTime": "77",
+        "spentTime": ""
+      },
+      {
+        "id": "_t5gn7l7m",
+        "content": "Read 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in ornare nisl. Maecenas at placerat arcu. Maecenas sit amet neque non erat ornare lobortis. Curabitur at magna nec sem accumsan maximus eu sed diam.'",
+        "status": "plan",
+        "priority": "low",
+        "creationDate": "01.02.2018 08:03:28",
+        "plannedTime": "1",
+        "spentTime": ""
+      }
+    ]
+  },
+  {
+    "username": "user",
+    "password": "user",
+    "id": 2,
+    "tasks": [
+      {
+        "id": "_vqcgtj61j",
+        "content": "Update project plan",
+        "status": "plan",
+        "priority": "medium",
+        "creationDate": "01.02.2018 07:26:30",
+        "plannedTime": "3",
+        "spentTime": "2"
+      },
+      {
+        "id": "_dl8qqfn1w",
+        "content": "Testing app",
+        "status": "plan",
+        "priority": "medium",
+        "creationDate": "01.02.2018 08:01:12",
+        "plannedTime": "7",
+        "spentTime": "5"
+      },
+      {
+        "id": "_ui2oupnju",
+        "content": "Open scrum board",
+        "status": "done",
+        "priority": "low",
+        "creationDate": "01.02.2018 07:31:47",
+        "plannedTime": "1",
+        "spentTime": "1"
+      },
+      {
+        "id": "_pi82zmap6",
+        "content": "Learn JS",
+        "status": "in progress",
+        "priority": "high",
+        "creationDate": "01.02.2018 08:02:13",
+        "plannedTime": "80",
+        "spentTime": ""
+      },
+      {
+        "id": "_t46gj7lxc",
+        "content": "Learn React",
+        "status": "in progress",
+        "priority": "high",
+        "creationDate": "01.02.2018 08:01:10",
+        "plannedTime": "77",
+        "spentTime": ""
+      },
+      {
+        "id": "_t5gn7l7m",
+        "content": "Read 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in ornare nisl. Maecenas at placerat arcu. Maecenas sit amet neque non erat ornare lobortis. Curabitur at magna nec sem accumsan maximus eu sed diam.'",
+        "status": "plan",
+        "priority": "low",
+        "creationDate": "01.02.2018 08:03:28",
+        "plannedTime": "1",
+        "spentTime": ""
+      }
+    ]
+  }
+]

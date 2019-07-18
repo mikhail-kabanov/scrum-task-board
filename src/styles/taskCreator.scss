@@ -1,0 +1,80 @@
+.taskBoard {
+  order: 2;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: flex-start;
+  justify-self: stretch;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  align-content: center;
+}
+.taskBoard__taskCreator {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  order: 1;
+  min-width: 25%;
+  max-width: 25%;
+  background: #FFFFFF;
+  overflow-y: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+  -moz-box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+}
+.taskCreator__form{
+  display: flex;
+  flex-direction: column;
+}
+.taskCreator__input{
+  outline: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: all .3s;
+}
+.taskCreator__status, .taskCreator__priority{
+  display: flex;
+  margin-bottom: 10px;
+}
+.taskCreator__status-label, .taskCreator__priority-label{
+  margin-right: 10px;
+}
+.taskCreator__textArea-Btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.taskCreator__textArea{
+  outline: 0;
+  border: 0.1em solid #ccc;
+  border-radius: 0.5em;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+}
+.taskCreator__button {
+  outline: 0;
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0;
+  background: $goldenTainoi;
+  transition: all .3s ease;
+  color: #231F20;
+  -webkit-transition: all .3s ease;
+  cursor: pointer;
+}
+.taskCreator__button:hover,.taskCreator__button:active,.taskCreator__button:focus {
+  background: #f5be57;
+}

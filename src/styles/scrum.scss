@@ -1,0 +1,88 @@
+.scrumBoard {
+  order: 2;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: flex-start;
+  justify-self: stretch;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  align-content: center;
+}
+.scrumBoard__scrum{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-start;
+  order: 2;
+  width: 100%;
+}
+.scrumBoard__StatusList{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-start;
+  order: 2;
+  width: 100%;
+}
+.scrum__column{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  order: 2;
+  width: calc(100% / 3);
+  background: #F0F0F0;
+  overflow-y: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.scrum__planStatus{
+  background: #EBF0F2;
+}
+.scrum__progressStatus{
+  background: #F5F7F8;
+}
+.scrum__doneStatus{
+  background: #EBF0F2;
+}
+.scrum__header{
+  display: flex;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+.scrum__headerPlan{
+  background: #DC2D4E;
+}
+.scrum__headerProgress{
+  background: #FCD233;
+}
+.scrum__headerDone{
+  background: #9AC34C;
+}
+.scrum_task{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  align-self: stretch;
+  padding: 5px;
+  margin: 5px 10px;
+  height: auto;
+  min-width: 80%;
+  min-height: 50px;
+  color: #231F20;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #FFF;
+  opacity: 1;
+}

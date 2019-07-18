@@ -1,0 +1,46 @@
+.header__main {
+  order: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  align-items: center;
+  min-height: 50px;
+  background: $tuna;
+  color: $goldenTainoi;
+  font-size: 24px;
+}
+.header__board {
+  order: 1;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  align-self: flex-start;
+  min-height: 50px;
+  background: $tuna;
+  color: $goldenTainoi;
+  font-size: 24px;
+}
+.header__logout{
+  margin: 0;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.header__logout:hover,.header__logout:active,.header__logout:focus {
+  color: #F8D68D;
+}
+.header__toggleView{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+}
+.header__toggle{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.header__toggle-off{
+  color: #c2c2c2;
+}

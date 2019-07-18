@@ -1,0 +1,74 @@
+.taskBoard__tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  order: 2;
+  width: 70%;
+  margin: 10px 100px 10px 100px;
+}
+.task{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: center;
+  align-self: flex-start;
+  padding: 5px;
+  height: auto;
+  margin: auto auto 8px;
+  width: 644px;
+  min-width: 80%;
+  color: #231F20;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #FFF;
+  opacity: 1;
+}
+.task:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.task_content{
+  min-width: 90%;
+}
+.task__firstColumn{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.task__deleteBtn{
+  align-self: stretch;
+}
+.taskList__sort-filter{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.taskList__status{
+  display: flex;
+  margin-bottom: 10px;
+}
+.taskList__status-label{
+  margin-right: 10px;
+}
+.taskList__sortBtn{
+  margin: 0 20px 10px 0;
+  outline: 0;
+  padding: 10px;
+  width: 70px;
+  background: $goldenTainoi;
+  border: 0;
+  transition: all .3s ease;
+  color: #231F20;
+  -webkit-transition: all .3s ease;
+  cursor: pointer;
+}
+.task__status{
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #6f6f6f;
+}

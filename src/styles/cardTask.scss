@@ -1,0 +1,67 @@
+.cardTask{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: center;
+  align-self: flex-start;
+  padding: 5px 5px 5px 5px;
+  height: auto;
+  margin: auto auto 8px;
+  width: 644px;
+  min-width: 80%;
+  min-height: 350px;
+  color: #231F20;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #FFF;
+  opacity: 1;
+}
+.cardTask:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardTask__firstColumn{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  align-self: stretch;
+  padding: 8px;
+}
+.cardTask__textArea{
+  outline: 0;
+  border: 0.1em solid #ccc;
+  border-radius: 0.5em;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+}
+.cardTask__editBtn, .cardTask__deleteBtn{
+  outline: 0;
+  padding: 10px;
+  margin: 10px;
+  width: 270px;
+  background: $goldenTainoi;
+  border: 0;
+  transition: all .3s ease;
+  color: #231F20;
+  -webkit-transition: all .3s ease;
+  cursor: pointer;
+}
+.cardTask__status-priority{
+  margin-bottom: 15px;
+}
+.cardTask__priority{
+  margin-left: 15px;
+}
+.cardTask__Btns{
+  display: flex;
+  justify-content: center;
+}
+.cardTask__editBtn:hover{
+  background: #f5be57;
+}
+.cardTask__deleteBtn:hover{
+  background: #f5be57;
+}

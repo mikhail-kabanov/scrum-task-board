@@ -1,0 +1,42 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: #A8A7A6;
+  font-family: "Lato", "Noto Sans", "sans-serif";
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+.app {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.content {
+  order: 2;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  background: #EBF0F2;
+}
+.footer {
+  order: 3;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  background: $tuna;
+  color: $goldenTainoi;
+}
