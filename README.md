@@ -4,5 +4,4 @@ npm i && npm start
 
 <br>
 
-<img src="https://ibb.co/rQj5N8V">
-
+<a href="https://ibb.co/rQj5N8V"><img src="https://i.ibb.co/XWQFM0q/scrumtaskboard.png" alt="scrumtaskboard" border="0"></a>
